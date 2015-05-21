@@ -9,16 +9,12 @@
 <![endif]-->
 
 <style>
-
-html {
-  height: 100%;
-}
-
 body {
   font-family: verdana;
-  font-size: 100%;
+  /*font-size: 100%;*/
   background-color: black;
   /*background: none repeat scroll 00;*/
+  width: 100%;
 }
 
 header {
@@ -29,10 +25,9 @@ header {
 }
 
 nav {
-  line-height: 30px;
+  /*line-height: 30px;*/
   background-color: white;
-  color: white;
-  font-size: 1.2em;
+  font-size: 1em;
   display: block;
   text-decoration: none;
   padding: 15px;
@@ -41,7 +36,7 @@ nav {
 }
 
 a {
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
 a:link    {color:gray; background-color:transparent; text-decoration:none}
@@ -51,19 +46,20 @@ a:active  {color:gray; background-color:transparent; text-decoration:none}
 
 section {
   background-color: black;
+  margin: 30px;
+  padding: 45px;
+
 }
 
 article {
-  border-style: solid;
-  border-color: blue;
-  border-width: thin;
+  background-color: black;
 }
 
 p {
   line-height: 1.5;
   color: #999999;
-  font-size: 21px;
-  font-weight: 0;
+  font-size: 14px;
+  font-weight: 100;
 }
 
 h1 {
@@ -81,11 +77,19 @@ footer {
   bottom: 0;
   padding: 15px;
 }
-</style>
-<body>
 
+#process {
+  width: 400px;
+  padding: 10px;
+  /*border: 1px solid white;*/
+  margin: 40px;
+  outline: white solid thin;
+}
+</style>
+
+<body>
 <header>
-  <img src="snp_assets/SNP_logo.png">
+  <img src="assets/SNP_logo.png">
 </header>
 
 <nav>
@@ -101,23 +105,28 @@ footer {
 </nav>
 
 <section>
+<div id="graph">
+<article>
+  <img src="assets/process-graphics.png">
+</article>
+</div>
 
+<div id="process">
 <article>
   <h1>PROCESS</h1>
   <p>We uncover the core of your business and give you smart tools to communicate your most important messages. We’re all about good, trusting relationships. So from the very beginning we’ll be honest with you and, whenever possible, exceed the promises we make.</p>
 </article>
+</div>
 
 </section>
 
-
-
 <footer>
   <p>© 2015. SNP. Leadership Communication</p>
- <img src="snp_assets/twitter.png">
- <img src="snp_assets/facebook.png">
- <img src="snp_assets/linkedin.png">
- <img src="snp_assets/googleplus.png">
+ <img src="assets/twitter.png">
+ <img src="assets/facebook.png">
+ <img src="assets/linkedin.png">
+ <img src="assets/googleplus.png">
 </footer>
-
 </body>
+
 </html>
